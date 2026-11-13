@@ -1,51 +1,32 @@
-# Lab 3.3.11 — Software Version Control with Git
+# DEVASC Labs
 
-## Цель работы
+Практические лабораторные работы по курсу Cisco DEVASC.
+Направление: Информационная безопасность.
 
-Изучение системы контроля версий Git и получение практических навыков управления репозиториями, коммитами, ветками и слияниями.
+## Список лабораторных работ
 
-## 1. Инициализация репозитория
+| № | Название | Статус |
+|---|---|---|
+| 1.1.2 | Install the Virtual Machine Lab Environment | Выполнено |
+| 1.2.2 | Linux Review | Выполнено |
+| 1.3.3 | Python Programming Review | Выполнено |
+| 2.2.7 | Explore DevNet Resources | Подготовлено |
+| 3.1.12 | Explore Python Development Tools | Выполнено |
+| 3.3.11 | Software Version Control with Git | В процессе |
+| 3.4.6 | Explore Python Classes | Не выполнено |
+| 3.5.7 | Create a Python Unit Test | Не выполнено |
+| 3.6.6 | Parse Different Data Types with Python | Не выполнено |
 
-- Выполнена настройка имени и email Git.
-- Создан локальный репозиторий с помощью git init.
-- Создан файл DEVASC.txt.
+## Используемые технологии
 
-## 2. Работа с коммитами
+- Linux
+- Python 3
+- Git
+- GitHub
+- Virtual Environments
+- Python unittest
+- XML, JSON, YAML
 
-Выполнены операции:
-- git add
-- git commit
-- git log
-- git diff
+## Цель
 
-Созданы коммиты для сохранения изменений файла.
-
-## 3. Работа с ветками
-
-Созданы ветки:
-- master
-- feature
-- test
-
-Ветка feature была объединена с master и удалена.
-
-## 4. Разрешение конфликта
-
-В ветке test слово Cisco заменено на NetAcad.
-В ветке master слово Cisco заменено на DevNet.
-
-При попытке объединения веток возник конфликт содержимого DEVASC.txt.
-
-Конфликт разрешён вручную. Оставлена версия с DevNet.
-
-## 5. Результат
-
-- Создан локальный Git-репозиторий.
-- Изучены коммиты и история изменений.
-- Выполнено создание и объединение веток.
-- Смоделирован и разрешён конфликт слияния.
-- Проверено чистое состояние репозитория.
-
-## Используемые команды
-
-git init, git status, git add, git commit, git log, git diff, git branch, git checkout, git merge.
+Получение практических навыков работы с Linux, Python, инструментами разработки и системами контроля версий.
